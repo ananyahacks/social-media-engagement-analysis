@@ -10,6 +10,8 @@ Social media platforms aim to maximize meaningful user engagement while maintain
 This project answers key business questions to help stakeholders optimize content strategy and improve overall platform health.
 
 ## Dataset
+Kaggle dataset : https://www.kaggle.com/datasets/subashmaster0411/social-media-engagement-dataset
+
 The dataset contains synthetic but realistic social media post-level data, including:
 - Post metadata (platform, topic category, location, language)
 - Engagement metrics (likes, shares, comments, impressions, engagement rate)
@@ -54,8 +56,3 @@ Insights will be finalized as additional analysis is completed. Initial findings
   -  02_kpi_analysis.sql
 - README.md
 
-## Dataset
-The dataset used in this project was sourced from Kaggle:  
-https://www.kaggle.com/datasets/subashmaster0411/social-media-engagement-dataset
-
-  (The dataset contains synthetic but realistic social media post-level data, including engagement metrics, sentiment indicators, toxicity scores, and campaign attributes.)
