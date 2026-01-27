@@ -1,5 +1,5 @@
 
-# Social Media Engagement & Sentiment Analysis | SQL + Power BI
+# Social Media Engagement Analysis | SQL + Power BI
 
 ## Project Overview
 This project analyzes social media engagement and sentiment data to identify key drivers of user engagement and assess how sentiment and toxicity impact content performance. The analysis is designed to support content strategy, platform growth, and user experience improvements.
@@ -41,7 +41,7 @@ KPI and performance analysis queries are implemented using multi-table JOINs and
 These queries evaluate engagement trends by platform, topic category, and sentiment attributes.
 
 ## Key Insights (Work in Progress)
-🚧 Insights will be finalized as additional analysis is completed. Initial findings focus on platform-level engagement differences and sentiment-driven performance patterns.
+Insights will be finalized as additional analysis is completed. Initial findings focus on platform-level engagement differences and sentiment-driven performance patterns.
 
 ## Tools & Technologies
 - MySQL
@@ -53,3 +53,9 @@ These queries evaluate engagement trends by platform, topic category, and sentim
   - schema_and_setup.sql
   -  02_kpi_analysis.sql
 - README.md
+
+## Dataset
+The dataset used in this project was sourced from Kaggle:  
+https://www.kaggle.com/datasets/subashmaster0411/social-media-engagement-dataset
+
+  (The dataset contains synthetic but realistic social media post-level data, including engagement metrics, sentiment indicators, toxicity scores, and campaign attributes.)
