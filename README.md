@@ -20,7 +20,12 @@ The dataset contains synthetic but realistic social media post-level data, inclu
 - Brand and campaign information
 
 ## Data Modeling & SQL Design
-The original dataset was provided as a denormalized flat table. To enable scalable SQL analysis and demonstrate relational database design, the data was normalized into multiple tables:
+The original dataset was provided as a denormalized flat table. To enable scalable SQL analysis and demonstrate relational database design, the data was normalized into multiple tables.
+The schema design and data preparation steps — including table creation, data type standardization, and normalization — are documented in:
+
+- `sql/schema_and_setup.sql`
+
+This step enables modular analysis and reflects real-world analytics database design practices.
 
 - `posts` — core post metadata  
 - `engagement` — post-level engagement metrics  
@@ -30,20 +35,21 @@ The original dataset was provided as a denormalized flat table. To enable scalab
 This design enables multi-table JOINs and modular analysis. Schema creation and setup queries are available in `sql/schema_and_setup.sql`.
 
 ## Key Business Questions
-- Which platforms drive the highest average engagement?
-- Which content topic categories perform best?
-- How does sentiment impact engagement rates?
-- Does higher toxicity correlate with lower engagement?
-- What is the overall engagement health of the platform?
+- Which platforms drive the highest average engagement and sustained performance over time?
+- Which content topic categories consistently perform best in terms of engagement?
+- How does user sentiment and emotional tone impact engagement rates?
+- Does higher toxicity correlate with lower user engagement and growth?
+- How has overall engagement changed over time, and are there signs of growth or decline?
+- Which days and time periods show the strongest engagement performance?
+- Are high-impression posts effectively converting reach into meaningful engagement?
 
 ## Analysis Approach
 KPI and performance analysis queries are implemented using multi-table JOINs and aggregations in:
-- `sql/02_kpi_analysis.sql`
 
-These queries evaluate engagement trends by platform, topic category, and sentiment attributes.
+- `sql/02_kpi_analysis.sql`  
+- `sql/03_time_and_growth_analysis.sql`
 
-## Key Insights (Work in Progress)
-Insights will be finalized as additional analysis is completed. Initial findings focus on platform-level engagement differences and sentiment-driven performance patterns.
+The analysis evaluates engagement performance across platforms and content categories, and examines how sentiment and toxicity attributes impact overall engagement. Time-based queries are used to assess growth trends and changes in engagement patterns over time.
 
 ## Tools & Technologies
 - MySQL
