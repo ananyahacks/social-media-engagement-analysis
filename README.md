@@ -57,8 +57,9 @@ The analysis evaluates engagement performance across platforms and content categ
 - Power BI (planned for dashboard visualization)
 
 ## Repository Structure
-- /sql
-  - schema_and_setup.sql
-  -  02_kpi_analysis.sql
-- README.md
+- `/sql`
+  - `schema_and_setup.sql`
+  -  `02_kpi_analysis.sql`
+  - `03_time_and_growth_analysis.sql`
+- `README.md`
 
