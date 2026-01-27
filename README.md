@@ -49,3 +49,7 @@ These queries evaluate engagement trends by platform, topic category, and sentim
 - Power BI (planned for dashboard visualization)
 
 ## Repository Structure
+- /sql
+  - schema_and_setup.sql
+  -  02_kpi_analysis.sql
+- README.md
