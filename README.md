@@ -63,5 +63,6 @@ The analysis evaluates engagement performance across platforms and content categ
   - `03_time_and_growth_analysis.sql`
 - `/screenshots`
   - `kpi_dashboards.png`
+  - `time_and_growth_analysis.png`
 - `README.md`
 
